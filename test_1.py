@@ -11,7 +11,7 @@ def check_1(func):
         pass
     else:
         raise NameError('Is the function argument equal to \'radius\'?')
-    if func(2) == 3.14 * (2 ** 2):
+    if func(4) == 3.14 * (4 ** 2):
         print('All tests are passed. That\'s right')
     else:
         raise ValueError('Check you formula, something\'s not right with it')
