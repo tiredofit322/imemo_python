@@ -126,5 +126,5 @@ def check_5(func):
     if func(start=25, end=47) == [29, 31, 37, 41, 43]:
         print('All tests are passed. That\'s right')
     else:
-        raise ValueError('Did you exclude \'end\' parameter')
+        raise ValueError('Did you exclude value at the \'end\' parameter')
         
